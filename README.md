@@ -3,9 +3,12 @@ Cylinder segmentation of 3D point cloud captured by the Microsoft Kinect sensor 
 
 The task was autonomous navigation of the robot with additional tasks, namely driving around the colored cylinders and reading QR codes. TurtleBot robot was used for the competition. 
 
-Demo (the cable was for battery charging only) of the robot on the left and the detected cylinder in green and the plane in gray color:
+Demo (the cable was for battery charging only):
 
 <img src="videos/demo_optimized.gif" alt="Demonstration" width="320">
+
+The detected cylinder in green and the plane in gray color:
+
 <img src="videos/result_optimized.gif" alt="Result" width="426.5">
 
 ## How-to
