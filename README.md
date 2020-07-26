@@ -8,7 +8,7 @@ The task was autonomous navigation of the robot with additional tasks, namely dr
 ## How-to
 In src / cylinder.cpp is a code to detect the cylinder from the point cloud that has been integrated into the ROS robotics middleware. Using PCL library, it filters the point cloud, segments the plane, and then the cylinder. 
 
-Since the cylinders were the only objects in the competition, it is a less robust system that uses the clustering method, but it is therefore faster.
+Since the cylinders were the only objects in the competition, it is a less robust system that uses the clustering method, but it is therefore faster and we won.
 
 To run it:
 ```bash
