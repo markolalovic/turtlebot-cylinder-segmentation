@@ -1,10 +1,12 @@
 # turtlebot-cylinder-segmentation
-Cylinder segmentation of 3D point cloud captured by the Microsoft Kinect sensor for robotic competition
+Cylinder segmentation of 3D point cloud captured by the Microsoft Kinect sensor for a robotic competition
 
-The task was autonomous navigation of the robot with additional tasks, namely driving around the colored cylinders and reading QR codes. TurtleBot robot was used for the competition. Demo (the cable was for battery charging only):
+The task was autonomous navigation of the robot with additional tasks, namely driving around the colored cylinders and reading QR codes. TurtleBot robot was used for the competition. 
+
+Demo (the cable was for battery charging only) of the robot on the left and the detected cylinder in green and the plane in gray color:
 
 <img src="videos/demo_optimized.gif" alt="Demonstration" width="320">
-
+<img src="videos/result_optimized.gif" alt="Result" width="426.5">
 
 ## How-to
 In src / cylinder.cpp is a code to detect the cylinder from the point cloud that has been integrated into the ROS robotics middleware. Using PCL library, it filters the point cloud, segments the plane, and then the cylinder. 
@@ -20,4 +22,4 @@ $ ./cylinder cylinder0.pcd
 
 And it shows us the detected cylinder in green and a plane in gray color:
 
-<img src="videos/result_optimized.gif" alt="Result" width="400">
+<img src="figures/result.gif" alt="Result" width="320">
