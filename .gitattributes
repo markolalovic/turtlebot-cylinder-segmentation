@@ -1,0 +1,2 @@
+*.CMake inguist-detectable=false
+*.Makefile inguist-detectable=false
