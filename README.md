@@ -7,7 +7,7 @@ Demo (the cable was for battery charging only):
 
 <img src="videos/demo_optimized.gif" alt="Demonstration" width="320">
 
-The detected cylinder in green and the plane in gray color:
+The detected cylinder and plane:
 
 <img src="videos/result_optimized.gif" alt="Result" width="426.5">
 
