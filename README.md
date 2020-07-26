@@ -25,4 +25,4 @@ $ ./cylinder cylinder0.pcd
 
 And it shows us the detected cylinder in green and a plane in gray color:
 
-<img src="figures/result.gif" alt="Result" width="320">
+<img src="figures/result.png" alt="Result" width="426.5">
